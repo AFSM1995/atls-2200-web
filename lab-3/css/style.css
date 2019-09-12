@@ -1,0 +1,62 @@
+/* Website body */
+body {
+    font-family: "Ant family", sans-serif;
+	background: url("../img/bg.JPG");
+    background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+	margin: auto;
+	max-width: 450px;
+}
+
+
+/* Tilte header */
+header {
+	background: url("../img/logo.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+	width: 600px;
+	height: 210px;
+}
+
+header h1 {
+	position: absolute;
+	top: -999em;
+	left: -999em;
+}
+
+
+/* center image */
+figure {
+	width: 90%;
+	margin-left: 0;
+}
+
+figure img {
+	width: 100%;
+	background: #85A8BF;
+	padding: 10px;
+}
+
+
+/* caption */
+figcaption {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;		
+}
+
+
+
+
+
+
+
+
+
+
+
