@@ -1,0 +1,52 @@
+/* CSS Reset*/
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #DFE0E2;
+    color: #071013;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+ul {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.title,
+.button {
+    padding: 20px;
+    text-align: center;
+}
+
+input[type=text] {
+    background-color: #DFE0E2;
+    border: 1px solid #23B5D3;
+    border-radius: 5px;
+}
+
+input[type=button] {
+    font-size: 1.2em;
+    background-color: #23B5D3;
+    padding: 10px 25px;
+}
+
+#story {
+    font-size: 1.2em;
+}

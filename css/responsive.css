@@ -1,0 +1,115 @@
+/*
+#0C0F0A black
+#052230 blue
+#DDD1C7 cream
+#B1B1B1 gray
+#FBFEFB white
+*/
+
+@media screen and (max-width: 900px) {
+    #education-body {
+        /*    padding-bottom: 70px;*/
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #education-body h4 {
+        /*    padding-bottom: 70px;*/
+        font-size: 18px;
+    }
+
+    .reco-affi-past-body {}
+
+    #education-title h3 {
+        padding-top: 70px;
+        font-weight: 600;
+        font-size: 42px;
+        margin-bottom: 0px;
+        color: #052230;
+    }
+
+    #reco-affi-past-body {
+        padding-left: 0px;
+    }
+
+
+    #reco-affi-past-title h3 {
+        padding-top: 70px;
+        font-weight: 600;
+        font-size: 42px;
+        margin-bottom: 0px;
+        color: #052230;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #education-body {
+        /*    padding-bottom: 70px;*/
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #education-body h4 {
+        /*    padding-bottom: 70px;*/
+        font-size: 15px;
+    }
+
+    .reco-affi-past-body {}
+
+    #education-title h3 {
+        padding-top: 70px;
+        font-weight: 600;
+        font-size: 42px;
+        margin-bottom: 0px;
+        color: #052230;
+    }
+
+    #reco-affi-past-body {
+        padding-left: 0px;
+    }
+
+
+    #reco-affi-past-title h3 {
+        padding-top: 70px;
+        font-weight: 600;
+        font-size: 42px;
+        margin-bottom: 0px;
+        color: #052230;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #education-body {
+        /*    padding-bottom: 70px;*/
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #education-body h4 {
+        /*    padding-bottom: 70px;*/
+        font-size: 12px;
+    }
+
+    .reco-affi-past-body {}
+
+    #education-title h3 {
+        padding-top: 70px;
+        font-weight: 600;
+        font-size: 42px;
+        margin-bottom: 0px;
+        color: #052230;
+    }
+
+    #reco-affi-past-body {
+        padding-left: 0px;
+    }
+
+
+    #reco-affi-past-title h3 {
+        padding-top: 70px;
+        font-weight: 600;
+        font-size: 42px;
+        margin-bottom: 0px;
+        color: #052230;
+    }
+}

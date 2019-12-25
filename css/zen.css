@@ -1,0 +1,230 @@
+/* Image Credits
+https://unsplash.com/photos/Jrl_UQcZqOc
+https://unsplash.com/photos/dI9KhXi0ooE
+https://unsplash.com/photos/x2Tmfd1-SgA
+https://unsplash.com/photos/EA5h8rPUep4
+*/
+
+/* css reset from week 7 lecture powerpoint. */
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Whole page changes */
+html,
+body {
+    color: #4D665B;
+    font-family: 'Old Standard TT', serif;
+    scroll-behavior: smooth;
+}
+
+/* Section Start: custion css for built in elements. */
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+
+/* Links */
+a:link {
+    color: #4D5F68;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6F9283;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3A7999;
+    text-decoration: none;
+}
+
+a:active {
+    color: #D5C7BC;
+    text-decoration: none;
+}
+
+/* Background and logo text */
+header {
+    height: 600px;
+    padding-top: 20px;
+    padding-left: 15%;
+    text-align: left;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0px -15px 10px 10px white inset;
+}
+
+header h2 {
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+/* Intro Paragraph */
+.summary {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.summary p {
+    display: inline;
+    align-items: center;
+}
+
+/* The Road to Enlightenment */
+.preamble {
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* CSS Grid */
+.explanation {
+    grid-area: explanation;
+    padding-left: 20px;
+}
+
+.participation {
+    grid-area: participation;
+}
+
+.benefits {
+    grid-area: benefits;
+    padding-right: 20px;
+}
+
+.requirements {
+    grid-area: requirements;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.requirements p {
+    padding-bottom: 10px;
+}
+
+
+.zen-images img {
+    height: 60px;
+}
+
+/* Footer CSS Grid */
+footer {
+    grid-area: foot;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-around;
+}
+
+/* Formating Grid */
+#zen-supporting {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "explanation participation benefits"
+        "requirements requirements requirements"
+        "foot foot foot";
+    grid-gap: 1em;
+}
+
+/* Formating Bottom Links */
+.wrapper {
+    background-image: repeating-linear-gradient(white, #4D665B 150%, white);
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+/* Whole Page Animation */
+.page-wrapper {
+    opacity: 1;
+    -webkit-animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -ms-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive mobile*/
+@media screen and (max-width: 500px) {
+
+    h3 {
+        font-size: 13px;
+    }
+
+    header {
+        padding-left: 5%;
+    }
+
+    .participation {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .benefits {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .explanation {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #zen-supporting {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "explanation"
+            "participation"
+            "benefits"
+            "requirements"
+            "foot";
+        grid-gap: 1em;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: "explanation"
+            "participation"
+            "benefits"
+            "requirements"
+            "foot";
+    }
+
+    .wrapper {
+        font-size: 12px;
+    }

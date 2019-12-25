@@ -1,0 +1,64 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    background: rgba(240, 255, 255, 100);
+}
+
+.container {
+    max-width: 850px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.0em;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.8em;
+    font-size: 0.95em;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+li {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 1.0em;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Custimizing Links*/
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: rgba(138, 120, 235, 92);
+}
+
+a:hover {
+    color: rgba(30, 97, 232, 91);
+}
+
+a:active {
+    color: rgba(20, 117, 232, 91);
+}
